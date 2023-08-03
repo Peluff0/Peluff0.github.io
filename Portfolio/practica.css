@@ -1,0 +1,59 @@
+/*Katherin Beltran
+Nicolás Rodríguez Fabreau
+Emiliano Castaño
+Florencia Da Silva
+Estefania Gonzalez
+Juan Peluffo*/
+
+body {
+    background-color: rgb(202, 198, 198);
+    font-family: sans-serif;
+    text-align: justify;
+    margin: 150px
+    width
+
+}
+
+h1{
+    text-align: center;
+    letter-spacing: 10px
+    
+}
+
+h2{
+    color: rgb(255, 255, 255);
+    background-color: grey;
+}
+
+p{
+    text-indent: 25px;
+    padding-left: 80px;
+    padding-right: 80px;
+    margin-right: 100px;
+    margin-left: 120px;
+    width: 1200px;
+    text-align: justify;
+    
+}
+
+
+em{
+    color: red;
+}
+
+strong{
+    background-color: white;
+}
+
+.imghtml{
+    width: 110px;
+    margin-left: 80px;
+    margin-right: 20px;
+}
+
+.css {
+    width: 110px;
+    margin-left: 80px;
+    margin-right: 20px;
+}
+

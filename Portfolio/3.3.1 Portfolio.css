@@ -1,0 +1,207 @@
+*{
+    margin: 0;
+    
+}
+
+
+body{
+    width: 100%;
+    height: 100vh;
+    background-image: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)), url(../Semana\ 3/);
+}
+
+.header{
+    width: 100%;
+    height: 80px;
+    display: block;
+    background-color: rgb(19, 19, 71);
+    position: fixed;
+    
+    
+}
+
+div img#foto{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
+
+
+h1{
+    text-align: center;
+    color: rgb(53, 53, 165);
+    padding-top: 10%;
+    font-size: 55px;
+    
+}
+
+h2{
+    text-align: center;
+    color: rgb(53, 53, 165);
+    padding-bottom: 10%;
+    font-size: 40px;
+}
+
+h2#Sobre_mi{
+    
+    font-size: 20px;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    padding-right: 30%;
+    padding-left: 30%;
+    padding-top: 5%;
+    color: rgb(211, 211, 211);
+    
+}
+
+h3{
+    padding-top: 10%;
+    padding-bottom: 10%;
+    font-size: 45px;
+    text-align: justify;
+    color: rgb(173, 38, 38);
+    text-align: center;
+}
+
+table{
+    text-align: center;
+    padding-right: 25%;
+    padding-left: 30%;
+}
+
+.inner_header{
+    width: 90%;
+    height: 100%;
+    display: block;
+    margin: 0 auto;
+    
+}
+
+
+
+.logo_container{
+    height: 100%;
+    display: table;
+    float: left;
+    
+}
+.logo_container h1{
+    color: white;
+    height: 100%;
+    display: table-cell;
+    vertical-align: middle;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 32px;
+    font-weight: 200;
+   
+
+}
+
+
+
+
+.logo_container h1 span{
+    color: rgb(77, 161, 230);
+    font-weight: 800;
+    
+    
+}
+
+.navigation{
+   float: right;
+   height: 100%;
+   
+   
+   
+}
+
+.navigation a{
+    height: 100%;
+    display: table;
+    float: left;
+    padding: 0px 20px;
+    color: white;
+    text-decoration: none;
+    transition: color .3s ease-in-out, box-shadow .3s ease-in-out;
+    box-shadow: inset 0 0 0 0 #54b3d6;
+    
+    
+    
+}
+
+.navigation a li{
+    display: table-cell;
+    vertical-align: middle;
+    color: white;
+    height: 100%;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 16px;
+    }
+
+a:hover{
+    color: rgb(255, 255, 255);
+    box-shadow: inset 200px 0 0 0 #238cb3;;
+    
+    
+}
+
+.info{
+    color: rgb(204, 214, 223);
+    
+    
+}
+
+strong{
+    font-size: 25px;
+    color: rgb(67, 116, 190);
+}
+
+footer{
+    background-color: #28285e;
+}
+
+.footContainer{
+    width: 100%;
+    padding: 70px 30px 20px;
+}
+
+.socialIcons{
+    display: flex;
+    justify-content: center;
+}
+
+.socialIcons a{
+    text-decoration: none;
+    padding: 10px;
+    margin: 10px;
+}
+
+.fa {
+    padding: 20px;
+    font-size: 15px;
+    width: 15px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+    border-radius: 50%;  
+  }
+
+
+  .fa:hover {
+    opacity: 0.7;
+}
+
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+  }
+
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }

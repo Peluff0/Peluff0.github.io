@@ -1,0 +1,19 @@
+div.cuadrado{
+    display: flex;
+    background-color: pink;
+    height: 200px;
+    width: auto;
+    margin: 20%;
+    align-items: flex-end;
+    justify-content: right;
+}
+
+div.circulo{
+    background-color: black;
+    height: 25px;
+    width: 25px;
+    border-radius: 50%;
+    
+}
+
+
